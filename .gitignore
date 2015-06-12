@@ -1,0 +1,6 @@
+*.pyc
+/overfeat-weights.tgz
+/net_weight_0
+/net_weight_1
+/net_fprop.hpp
+/net_init.hpp
