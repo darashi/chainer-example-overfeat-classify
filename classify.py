@@ -31,7 +31,7 @@ if args.gpu >= 0:
 
 def read_image(path):
   image = cv2.imread(path)
-  if image == None:
+  if image is None:
       print("failed to read image: " + path)
       sys.exit(1)
 
